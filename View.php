@@ -14,7 +14,7 @@ class View extends Core
 	public $viewPath = 'views';
 
 	/**
-	 * Responsible for rendering the wp admin menu
+	 * Responsible for rendering the wp admin pages
 	 * @param  string $filename the view name to be rendered
 	 */
 	public function renderAdmin($view)
