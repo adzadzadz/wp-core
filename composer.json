@@ -1,0 +1,27 @@
+{
+	"name": "adzadzadz/wp-core",
+	"description": "MVC framework for creating Wordpress plugins",
+	"keywords": ["mvc, wordpress, plugin"],
+	"homepage": "https://github.com/adzadzadz/wp-plugin-mvc",
+	"type": "library",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Adrian Saycon",
+			"email": "adzbite@gmail.com",
+			"homepage": "http://adzbyte.com/",
+			"role": "Creator"
+		}
+	],
+	"require": {
+		"php": ">=5.4.0"
+	},
+	"require-dev": {
+		"codeception/codeception"  "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"arc\\wp\\": ""
+		}
+	}
+}
